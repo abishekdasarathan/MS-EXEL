@@ -1,0 +1,36 @@
+Product_ID,Product_Name,Category,Unit_Price,Quantity_Sold,Discount_%,Region,REVENUE,EXP OR BUDGET,ZOAN
+P101,Laptop,Electronics,55000,15,5,South,783750,EXPENSIVE,ZOAN A
+P102,Mouse,Accessories,800,120,0,North,96000,BUDGET,OTHERS
+P103,Keyboard,Accessories,1200,90,10,East,97200,BUDGET,OTHERS
+P104,Monitor,Electronics,15000,25,8,West,345000,EXPENSIVE,OTHERS
+P105,Printer,Electronics,12000,20,7,South,223200,EXPENSIVE,ZOAN A
+P106,Scanner,Electronics,10000,18,5,North,171000,BUDGET,OTHERS
+P107,Tablet,Electronics,25000,10,3,East,242500,EXPENSIVE,OTHERS
+P108,Speaker,Accessories,3000,45,12,West,118800,BUDGET,OTHERS
+P109,Camera,Electronics,40000,12,4,South,460800,EXPENSIVE,ZOAN A
+P110,Router,Networking,5000,30,6,East,141000,BUDGET,OTHERS
+,,,,,,,,,
+#,Task,Answer,,,,,,,
+1,Total Quantity Sold,385,,,,,,,
+2,Average Unit Price,16700,,,,,,,
+3,Highest Unit Price,55000,,,,,,,
+4,Lowest Unit Price,800,,,,,,,
+5,Count of Products,10,,,,,,,
+6,Count Accessories,3,,,,,,,
+7,Sum of Electronics Prices,157000,,,,,,,
+8,Avg Discount of Electronics,5.333333333,,,,,,,
+9,Count Items in South Region,3,,,,,,,
+10,Total Quantity Sold in East,130,,,,,,,
+11,Average Price >10000,29400,,,,,,,
+12,Count Items <10% Discount,8,,,,,,,
+13,Total Revenue,2679250,,,,,,,
+14,IF Unit Price> 10000: Expensive or else it is budget,,,,,,,,
+15,"IF Region is South Return"" Zone A"" else return ""Other Zone""",,,,,,,,
+16,Count Products with Price>10000 and Discount<5,2,,,,,,,
+17,Total Units Sold in Electronics (?10% Discount),0,,,,,,,
+18,Average Price in South Region,35666.66667,,,,,,,
+19,Count Accessories Sold ?50 Units,2,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
