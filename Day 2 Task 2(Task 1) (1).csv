@@ -1,0 +1,57 @@
+A: Employee,B: Department,C: Region,D: Sales (?),E: Target (?),F: Achieved %,G: Attendance %,BONOUS ELEGIBLITY,ATTENDANCE,PERFORMANCE
+Indhu,Sales,South,85000,80000,106%,95,ELEGIBLE FOR BONOUS,GOOD,STAR performer
+Ramesh,Sales,North,65000,70000,93%,82,NOT ELEGIBLE FOR BONOUS,WARNING,AVERAGE
+Priya,HR,South,40000,40000,100%,90,ELEGIBLE FOR BONOUS,GOOD,STAR performer
+Karthik,IT,East,95000,90000,106%,98,ELEGIBLE FOR BONOUS,GOOD,STAR performer
+Divya,Sales,West,72000,80000,90%,85,NOT ELEGIBLE FOR BONOUS,GOOD,AVERAGE
+Meena,HR,North,38000,35000,109%,87,ELEGIBLE FOR BONOUS,GOOD,AVERAGE
+Suresh,IT,South,80000,75000,107%,91,ELEGIBLE FOR BONOUS,GOOD,STAR performer
+Arun,IT,West,73000,75000,97%,89,NOT ELEGIBLE FOR BONOUS,GOOD,AVERAGE
+Keerthi,Sales,East,91000,88000,103%,94,ELEGIBLE FOR BONOUS,GOOD,STAR performer
+Vignesh,HR,South,42000,40000,105%,92,ELEGIBLE FOR BONOUS,GOOD,STAR performer
+,,,,,,,,,
+,,,,,,,,,
+#,Task,Answer,,,,,,,
+1,Total Sales,681000,,,,,,,
+2,Average Sales,68100,,,,,,,
+3,Highest Sale,95000,,,,,,,
+4,Lowest Sale,38000,,,,,,,
+5,Count Employees,10,,,,,,,
+6,Count Sales Dept,4,,,,,,,
+7,Count South Region,4,,,,,,,
+8,Count Sales > 80000,3,,,,,,,
+9,Sum of Sales > 80000,271000,,,,,,,
+10,Average Sales > 80000,90333.33333,,,,,,,
+11,Total Sales in South,247000,,,,,,,
+12,Avg Target for IT Dept,80000,,,,,,,
+13,Count of 100% Achieved,6,,,,,,,
+14,Sum of HR Department Sales,120000,,,,,,,
+15,Avg Attendance,90.3,,,,,,,
+16,Employees above 90% attendance,5,,,,,,,
+17,Employees below target(100%),3,,,,,,,
+18,Employees meeting/exceeding target,7,,,,,,,
+19,Total Target Amount,673000,,,,,,,
+20,Bonus Eligibility (>100%),,,,,,,,
+21,Attendance Warning(Less than 85),,,,,,,,
+22,Achieved >= Target AND Attendance >=90 then Star Performer else Average,,,,,,,,
+23,Count Star Performers [based on previous Task],6,,,,,,,
+24,Average of South Region,61750,,,,,,,
+25,Total Sales for Each Department,FALSE,,,,,,,
+26,% Achievement,FALSE,,,,,,,
+27,2nd Highest Sales,91000,,,,,,,
+28,3rd Lowest Sales,42000,,,,,,,
+29,Count of Sales Between 50000–90000,5,,,,,,,
+30,Sum Sales >80K in South,85000,,,,,,,
+31,Avg Sales < Target,70000,,,,,,,
+32,Count IT Dept with 90%+ Attendance,2,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+48,Count Blank Cells,0,Empty cell count,,,,,,
+,,,,,,,,,
+50,Add Bonus 10% if Above Target,8500,Conditional calculation,,,,,,
