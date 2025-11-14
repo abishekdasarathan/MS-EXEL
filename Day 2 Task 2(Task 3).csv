@@ -1,0 +1,49 @@
+Customer_ID,Customer_Name,City,Product_Category,Purchase_Amount,Discount_%,Purchase_Date,,
+CUST001,Arun,Madurai,Furniture,10871,20,2025-01-01 00:00:00,BIG,OTHERS
+CUST002,Divya,Trichy,Groceries,18363,5,2025-01-16 00:00:00,BIG,OTHERS
+CUST003,Mani,Chennai,Groceries,14263,5,2025-01-31 00:00:00,BIG,METROPOLITIAN
+CUST004,Keerthi,Madurai,Clothing,15486,5,2025-02-15 00:00:00,BIG,OTHERS
+CUST005,Ravi,Trichy,Groceries,12550,5,2025-03-02 00:00:00,BIG,OTHERS
+CUST006,Nisha,Chennai,Clothing,9011,5,2025-03-17 00:00:00,SMALL,METROPOLITIAN
+CUST007,Vijay,Chennai,Groceries,2170,20,2025-04-01 00:00:00,SMALL,METROPOLITIAN
+CUST008,Priya,Trichy,Groceries,22619,10,2025-04-16 00:00:00,BIG,OTHERS
+CUST009,Suresh,Chennai,Electronics,24850,5,2025-05-01 00:00:00,BIG,METROPOLITIAN
+CUST010,Meena,Madurai,Clothing,16158,5,2025-05-16 00:00:00,BIG,OTHERS
+CUST011,Anbu,Trichy,Clothing,15902,15,2025-05-31 00:00:00,BIG,OTHERS
+CUST012,Deepa,Madurai,Groceries,22410,20,2025-06-15 00:00:00,BIG,OTHERS
+CUST013,Karthik,Trichy,Groceries,20429,15,2025-06-30 00:00:00,BIG,OTHERS
+CUST014,Sneha,Trichy,Furniture,10772,10,2025-07-15 00:00:00,BIG,OTHERS
+CUST015,Rahul,Chennai,Clothing,4361,10,2025-07-30 00:00:00,SMALL,METROPOLITIAN
+,,,,,,,,
+,,,,,,,,
+#,Task,Answer,,,,,,
+1,Total Purchase Amount,220215,,,,,,
+2,Average Purchase Amount,14681,,,,,,
+3,Highest Purchase Amount,24850,,,,,,
+4,Lowest Purchase Amount,10871,,,,,,
+5,Count of Customers,15,,,,,,
+6,Count of Chennai Customers,5,,,,,,
+7,Total Purchase from Madurai,64925,,,,,,
+8,Avg Discount for Clothing,8,,,,,,
+9,Count Electronics Purchases,1,,,,,,
+10,Total Furniture Purchase,21643,,,,,,
+11,Count >15000 Purchase,8,,,,,,
+12,Avg Purchase <10000,5180.666667,,,,,,
+13,Total Purchase with 10% Discount,37752,,,,,,
+14,IF Purchase Amount > 10000 return Big else Small,,,,,,,
+,,,,,,,,
+16,IF City is Chennai return Metro else return Other,,City category check,,,,,
+17,Count Clothing with >10% Discount,1,Multi-condition,,,,,
+18,Sum Electronics with 5% Discount,24850,SUMIFS,,,,,
+19,Avg Purchase in Coimbatore,#DIV/0!,City average,,,,,
+20,Count Groceries <5000,1,Multi-condition,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
