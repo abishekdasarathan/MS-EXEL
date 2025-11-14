@@ -35,7 +35,7 @@ CUST015,Rahul,Chennai,Clothing,4361,10,2025-07-30 00:00:00,SMALL,METROPOLITIAN
 16,IF City is Chennai return Metro else return Other,,City category check,,,,,
 17,Count Clothing with >10% Discount,1,Multi-condition,,,,,
 18,Sum Electronics with 5% Discount,24850,SUMIFS,,,,,
-19,Avg Purchase in Coimbatore,#DIV/0!,City average,,,,,
+19,Avg Purchase in Coimbatore,COIMBATORE NOT IN CITY LIST,City average,,,,,
 20,Count Groceries <5000,1,Multi-condition,,,,,
 ,,,,,,,,
 ,,,,,,,,
